@@ -10,3 +10,11 @@ I have some vague ideas of turning this repo from a collection of links into a n
 ### [Caches in Rust](https://matklad.github.io//2022/06/11/caches-in-rust.html) by [Aleksey Kladov](https://github.com/matklad/)
 
 Discusses techniques for making a "lazilly allocated" cache, where the entry is populated when it is used. Suggests patterns where the methods are `fn get(&self) -> &Value` (rather than, e.g., `fn get(&mut self) -> &Value`).
+
+### [Using Rust for Game Development](https://www.youtube.com/watch?v=aKLntZcp27M) by [Katherine West](https://github.com/kyren) (video)
+
+Discusses ECS but also the idea of storing your data in a vec (or other container) and passing around indices (or other keys) to act as pointers. 
+
+### [Modeling graphs in Rust using vector indices](http://smallcultfollowing.com/babysteps/blog/2015/04/06/modeling-graphs-in-rust-using-vector-indices/) by [Niko Matsakis](https://github.com/nikomatsakis/)
+
+Discusses the idea of storing your data in a vec (or other container) and passing around indices (or other keys) to act as pointers.
