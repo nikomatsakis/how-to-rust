@@ -13,7 +13,7 @@ Discusses techniques for making a "lazilly allocated" cache, where the entry is 
 
 ### [Using Rust for Game Development](https://www.youtube.com/watch?v=aKLntZcp27M) by [Katherine West](https://github.com/kyren) (video)
 
-Discusses ECS but also the idea of storing your data in a vec (or other container) and passing around indices (or other keys) to act as pointers. 
+Discusses ECS but also the idea of storing your data in a vec (or other container) and passing around indices (or other keys) to act as pointers. Also covers generational arenas (like [generational-arena](https://crates.io/crates/generational-arena)) which can help manage alloc/free patterns in these sorts of structures.
 
 ### [Modeling graphs in Rust using vector indices](http://smallcultfollowing.com/babysteps/blog/2015/04/06/modeling-graphs-in-rust-using-vector-indices/) by [Niko Matsakis](https://github.com/nikomatsakis/)
 
