@@ -18,3 +18,9 @@ Discusses ECS but also the idea of storing your data in a vec (or other containe
 ### [Modeling graphs in Rust using vector indices](http://smallcultfollowing.com/babysteps/blog/2015/04/06/modeling-graphs-in-rust-using-vector-indices/) by [Niko Matsakis](https://github.com/nikomatsakis/)
 
 Discusses the idea of storing your data in a vec (or other container) and passing around indices (or other keys) to act as pointers. Note that generational arenas (covered by West in previous item) can help solve the problem of "how to remove a node without dangling indices", although they only detect dangling indices at runtime, they don't prevent them statically.
+
+## Async
+
+### [Actors with Tokio](https://ryhl.io/blog/actors-with-tokio/) by [Alice Ryhl](https://github.com/Darksonn/)
+
+Talks about how to setup actors using the tokio runtime as an alternative to using locking.
