@@ -5,6 +5,12 @@ This repo is meant to be a list of links pointing at great blog posts about usin
 
 I have some vague ideas of turning this repo from a collection of links into a nice mdbook, but for now, I'm just accumulating data! Pull requests adding interesting articles (or adjusting the categorizations) are very welcome!
 
+## Borrow checker challenges
+
+### [After NLL: Interprocedural conflicts](http://smallcultfollowing.com/babysteps/blog/2018/11/01/after-nll-interprocedural-conflicts/) by [Niko Matsakis](https://github.com/nikomatsakis/)
+
+Lays out various limitations of Rust’s ownership and borrowing system as well as – where applicable – current workarounds. 
+
 ## Structuring code
 
 ### [Caches in Rust](https://matklad.github.io//2022/06/11/caches-in-rust.html) by [Aleksey Kladov](https://github.com/matklad/)
